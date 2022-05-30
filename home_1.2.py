@@ -1,0 +1,7 @@
+room_length =int(input("введите длину комнаты см"))
+room_width =int(input('введите ширину комнаты см'))
+room_height =int(input('введите высоту комнаты см'))
+rolls_lengh =int(input("введите длину обоев см"))
+rolls_width =int(input('введите ширину обоев см'))
+number_of_rolls =2*(room_length + room_width)/rolls_width/(rolls_lengh/room_height)
+print ('вам необходимо', number_of_rolls, 'рулонов')
